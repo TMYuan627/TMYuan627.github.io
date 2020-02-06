@@ -11,13 +11,12 @@
     
 </head>
 <body>
-    <style>.box {  }; </style>
+    <body style="height: 100%; margin: 0">
     <div class="box">
                 <div id="bda8ffa16d334f4688745c3bd4932eb2" class="chart-container" style="width:500px; height:350px;"></div>
     <script>
         var chart_bda8ffa16d334f4688745c3bd4932eb2 = echarts.init(
             document.getElementById('bda8ffa16d334f4688745c3bd4932eb2'), 'westeros', {renderer: 'canvas'});
-            window.onresize=chart_bda8ffa16d334f4688745c3bd4932eb2.resize;
         var option_bda8ffa16d334f4688745c3bd4932eb2 = {
     "animation": true,
     "animationThreshold": 2000,
@@ -109,12 +108,14 @@
     ]
 };
         chart_bda8ffa16d334f4688745c3bd4932eb2.setOption(option_bda8ffa16d334f4688745c3bd4932eb2);
+        window.onresize = function () {
+        chart_51688d29914f477382b89e8a3dbcbf72.resize();
+    }
     </script>
 <br/>                <div id="bb8963f00143433fbb2b41e54bb95f4e" class="chart-container" style="width:500px; height:350px;"></div>
     <script>
         var chart_bb8963f00143433fbb2b41e54bb95f4e = echarts.init(
             document.getElementById('bb8963f00143433fbb2b41e54bb95f4e'), 'westeros', {renderer: 'canvas'});
-            window.onresize=chart_bb8963f00143433fbb2b41e54bb95f4e.resize;
         var option_bb8963f00143433fbb2b41e54bb95f4e = {
     "animation": true,
     "animationThreshold": 2000,
@@ -211,7 +212,6 @@
     <script>
         var chart_76a5b933617a4603a89edf32ec29a382 = echarts.init(
             document.getElementById('76a5b933617a4603a89edf32ec29a382'), 'westeros', {renderer: 'canvas'});
-            window.onresize=chart_76a5b933617a4603a89edf32ec29a382.resize;
         var option_76a5b933617a4603a89edf32ec29a382 = {
     "animation": true,
     "animationThreshold": 2000,
@@ -468,7 +468,6 @@
     <script>
         var chart_f9e359ff9bde48d6ad409bb9469b9bc8 = echarts.init(
             document.getElementById('f9e359ff9bde48d6ad409bb9469b9bc8'), 'westeros', {renderer: 'canvas'});
-            window.onresize=chart_f9e359ff9bde48d6ad409bb9469b9bc8.resize;
         var option_f9e359ff9bde48d6ad409bb9469b9bc8 = {
     "animation": true,
     "animationThreshold": 2000,
@@ -672,7 +671,6 @@
     <script>
         var chart_9437287acdbc483eabbc7f68c41e57b8 = echarts.init(
             document.getElementById('9437287acdbc483eabbc7f68c41e57b8'), 'westeros', {renderer: 'canvas'});
-            window.onresize=chart_9437287acdbc483eabbc7f68c41e57b8.resize;
         var option_9437287acdbc483eabbc7f68c41e57b8 = {
     "animation": true,
     "animationThreshold": 2000,
@@ -911,7 +909,6 @@
     <script>
         var chart_a4f4c24c1c9b4d65b606ea294a775291 = echarts.init(
             document.getElementById('a4f4c24c1c9b4d65b606ea294a775291'), 'westeros', {renderer: 'canvas'});
-            window.onresize=chart_a4f4c24c1c9b4d65b606ea294a775291.resize;
         var option_a4f4c24c1c9b4d65b606ea294a775291 = {
     "animation": true,
     "animationThreshold": 2000,
@@ -1285,7 +1282,6 @@
     <script>
         var chart_51688d29914f477382b89e8a3dbcbf72 = echarts.init(
             document.getElementById('51688d29914f477382b89e8a3dbcbf72'), 'westeros', {renderer: 'canvas'});
-            window.onresize=chart_51688d29914f477382b89e8a3dbcbf72.resize;
         var option_51688d29914f477382b89e8a3dbcbf72 = {
     "animation": true,
     "animationThreshold": 2000,
@@ -1654,18 +1650,20 @@
     ]
 };
         chart_51688d29914f477382b89e8a3dbcbf72.setOption(option_51688d29914f477382b89e8a3dbcbf72);
+        
     </script>
 <br/>    </div>
     <script>
-        window.onresize=function(){
-            chart_51688d29914f477382b89e8a3dbcbf72.resize();
-            chart_76a5b933617a4603a89edf32ec29a382.resize();
-            chart_9437287acdbc483eabbc7f68c41e57b8.resize();
-            chart_a4f4c24c1c9b4d65b606ea294a775291.resize();
-            chart_bb8963f00143433fbb2b41e54bb95f4e.resize();
-            chart_bda8ffa16d334f4688745c3bd4932eb2.resize();
-            chart_f9e359ff9bde48d6ad409bb9469b9bc8.resize();
-        }
+        window.addEventListener("resize", function() {
+            option_51688d29914f477382b89e8a3dbcbf72.chart_51688d29914f477382b89e8a3dbcbf72.resize();
+            option_76a5b933617a4603a89edf32ec29a382.chart_76a5b933617a4603a89edf32ec29a382.resize();
+            option_9437287acdbc483eabbc7f68c41e57b8.chart_9437287acdbc483eabbc7f68c41e57b8.resize();
+            option_a4f4c24c1c9b4d65b606ea294a775291.chart_a4f4c24c1c9b4d65b606ea294a775291.resize();
+            option_bb8963f00143433fbb2b41e54bb95f4e.chart_bb8963f00143433fbb2b41e54bb95f4e.resize();
+            option_bda8ffa16d334f4688745c3bd4932eb2.chart_bda8ffa16d334f4688745c3bd4932eb2.resize();
+            option_f9e359ff9bde48d6ad409bb9469b9bc8.chart_f9e359ff9bde48d6ad409bb9469b9bc8.resize();
+
+});
     </script>
 </body>
 
