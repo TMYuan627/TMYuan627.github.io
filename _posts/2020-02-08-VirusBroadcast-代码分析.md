@@ -4,7 +4,7 @@ title:      VirusBroadcast 代码分析
 subtitle:   "疫情转播仿真程序Java源代码赏析"
 date:       2020-02-08
 author:     汤泡饭
-header-img: img/post-bg-os-metro
+header-img: img/post-bg-os-metro.jpg
 catalog: true
 tags:
     - Java
