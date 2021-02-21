@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
 <!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
@@ -41,10 +41,11 @@ layout: default
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% comment %} endif {% endcomment %}
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
-                    <br/><br/>
-                    <span id="busuanzi_container_page_pv">
+                    <br/>
+                    <span id="busuanzi_container_page_pv"><i class="fa fa-spinner">
                         本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-                      </span>
+                    </i></span>
+
                 </div>
             </div>
         </div>
