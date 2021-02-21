@@ -1,5 +1,5 @@
 # Site settings
-title: 汤泡饭BLOG
+title: 汤泡饭 | BLOG
 SEOTitle: 汤泡饭BLOG | TMYuan BLOG
 header-img: img/post-bg-universe.jpg
 email: yuanhn627@qq.com
@@ -101,6 +101,21 @@ friends: [
     {
         title: "电子科技大学",
         href: "http://www.uestc.edu.cn"
+    },{
+        title: "电子科技大学信息与软件工程学院",
+        href: "https://www.ss.uestc.edu.cn/"
+    },{
+        title: "北京大学软件与微电子学院",
+        href: "http://www.ss.pku.edu.cn/"
+    },{
+        title: "北京大学信息科学技术学院",
+        href: "http://eecs.pku.edu.cn/"
+    },{
+        title: "浙江大学软件学院",
+        href: "http://www.cst.zju.edu.cn/"
+    },{
+        title: "南京大学软件学院",
+        href: "https://software.nju.edu.cn/"
     },{
         title: "Apple",
         href: "https://apple.com"
