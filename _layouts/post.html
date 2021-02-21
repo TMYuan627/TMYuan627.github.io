@@ -42,7 +42,7 @@ layout: default
                     {% comment %} endif {% endcomment %}
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
                     <br/>
-                    <span id="busuanzi_container_page_pv"><i class="fa fa-spinner">
+                    <span id="busuanzi_container_page_pv" style='display:none'><i class="fa fa-spinner fa-spin">
                         本文总阅读量<span id="busuanzi_value_page_pv"></span>次
                     </i></span>
 
