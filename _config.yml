@@ -1,7 +1,7 @@
 # Site settings
 title: 汤泡饭BLOG
 SEOTitle: 汤泡饭BLOG | TMYuan BLOG
-header-img: img/post-bg-desk.jpg
+header-img: img/post-bg-universe.jpg
 email: yuanhn627@qq.com
 description: "Every failure is leading towards success."
 keyword: "汤泡饭, BLOG, TMYuan, 袁昊男, 软件工程, 互联网安全, Apple, iPhone"
@@ -11,7 +11,7 @@ github_repo: "https://github.com/TMYuan627/TMYuan627.github.io.git" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "电子科技大学信息与软件工程学院 软件工程(互联网安全) 大二在读"
+sidebar-about-description: "电子科技大学信息与软件工程学院 软件工程(互联网安全) 大三在读"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -78,7 +78,7 @@ ba_track_id: f2b9291fb5829f468b2473ccf971e300
 
 # Google Analytics
 #ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-#ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
 
 
 
