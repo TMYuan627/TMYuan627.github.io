@@ -42,8 +42,8 @@ layout: default
                     {% comment %} endif {% endcomment %}
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
                     <br/>
-                    <span id="busuanzi_container_page_pv" style='display:none'>
-                        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+                    <span id="busuanzi_container_page_pv">
+                        本文总阅读量<span id="busuanzi_value_page_pv"></span>次 | 共{{ content | strip_html | strip_newlines | split: "" | size }}字, 大约需要{{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }}分钟
                     </span>
 
                 </div>
